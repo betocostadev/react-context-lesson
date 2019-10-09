@@ -1,6 +1,11 @@
 # react-context-lesson
 We are going to replace our local state management from redux to the new context API. This repository is our application before we introduced sagas to handle our asynchronous code, which is a good starting point to make the appropriate changes!
 
+## About
+
+Using the same Crwn-clothing app but some commits before implementing redux sagas.
+Using the Context-API to pass data through the component tree
+
 # How to fork and clone
 
 One quick note about cloning this project. If you wish to make commits and push the code up after cloning this repo, you should fork the project first. In order to own your own copy of this repository, you have to fork it so you get your own copy on your own profile!
@@ -25,7 +30,7 @@ Remember to replace the `config` variable in your `firebase.utils.js` with your 
 ![alt text](https://i.ibb.co/6ywMkBf/Screen-Shot-2019-07-01-at-11-35-02-AM.png "image to firebase config")
 
 
-## Set your stripe publishable key 
+## Set your stripe publishable key
 
 Set the `publishableKey` variable in the `stripe-button.component.jsx` with your own publishable key from the stripe dashboard.
 
